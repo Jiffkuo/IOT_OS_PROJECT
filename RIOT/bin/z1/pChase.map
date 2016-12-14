@@ -1,0 +1,1923 @@
+Archive member included because of file (symbol)
+
+/home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o (board_init)
+/home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o (kernel_init)
+/home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o) (thread_create)
+/home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o) (core_panic)
+/home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o) (sched_active_thread)
+/home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o) (bitarithm_lsb)
+/home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o (putchar)
+/home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o) (thread_yield_higher)
+/home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o) (irq_disable)
+/home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o) (lpm_set)
+/home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o) (msp430_cpu_init)
+/home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o) (panic_arch)
+/home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o) (uart_stdio_init)
+/home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o) (main)
+/home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o) (auto_init)
+/home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o) (_mutex_lock)
+/home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o) (malloc)
+/home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o) (timer_read)
+/home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o) (uart_init)
+/home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o) (tsrb_get)
+/home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o) (_xtimer_high_cnt)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o) (__divhi3)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o) (__udivsi3)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o) (__ext_udivmod16)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o) (printf)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o) (vuprintf)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o (puts)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o) (memcpy)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o) (memset)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o) (__udivdi3)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o (_reset_vector__)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__watchdog_support)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__init_stack)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__low_level_init)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__do_copy_data)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__do_clear_bss)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (__stop_progExec__)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o) (_endless_loop__)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o (_unexpected_)
+/usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+                              /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o (__do_global_ctors)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+ .text.crt0     0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .text.thread_get
+                0x00000000       0x16 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .text.thread_getstatus
+                0x00000000       0x14 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .text.thread_getname
+                0x00000000       0x12 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .text.thread_sleep
+                0x00000000       0x28 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .text.thread_wakeup
+                0x00000000       0x42 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .text.thread_yield
+                0x00000000       0x2e /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .text.thread_add_to_list
+                0x00000000       0x3c /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .text.thread_measure_stack_free
+                0x00000000       0x10 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .text.bitarithm_msb
+                0x00000000        0xe /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .text.bitarithm_bits_set
+                0x00000000       0x14 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .text.getchar  0x00000000       0x12 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .text.write    0x00000000       0x14 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .text.thread_arch_isr_stack_usage
+                0x00000000        0x4 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .text.thread_arch_isr_stack_pointer
+                0x00000000        0x4 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .text.thread_arch_isr_stack_start
+                0x00000000        0x4 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .text.reboot   0x00000000        0x6 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .text.lpm_init
+                0x00000000        0x6 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .text.lpm_awake
+                0x00000000        0x6 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .text.lpm_begin_awake
+                0x00000000        0x2 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .text.lpm_end_awake
+                0x00000000        0x2 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .text.splhigh_
+                0x00000000        0xa /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .text.splx_    0x00000000        0x8 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .text.uart_stdio_read
+                0x00000000       0x26 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .text._mutex_lock
+                0x00000000       0x62 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .text.mutex_unlock_and_sleep
+                0x00000000       0x4c /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .text.calloc   0x00000000       0x30 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .text.realloc  0x00000000       0x3a /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .text.timer_set
+                0x00000000        0xa /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .text.timer_clear
+                0x00000000       0x1c /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .text.timer_start
+                0x00000000        0x8 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .text.timer_stop
+                0x00000000        0x8 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .text.timer_irq_enable
+                0x00000000        0x2 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .text.timer_irq_disable
+                0x00000000        0x2 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .text.uart_poweron
+                0x00000000        0x2 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .text.uart_poweroff
+                0x00000000        0x2 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .text.tsrb_get_one
+                0x00000000       0x2c /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .text.tsrb_get
+                0x00000000       0x3c /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .text.tsrb_add
+                0x00000000       0x3a /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .text          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .data          0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .bss           0x00000000        0x0 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text._add_timer_to_list
+                0x00000000       0x2c /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text._remove_timer_from_list
+                0x00000000       0x1a /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text.xtimer_now
+                0x00000000       0x2e /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text._xtimer_now64
+                0x00000000       0x38 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text._remove  0x00000000       0x5a /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text._add_timer_to_long_list.constprop.3
+                0x00000000       0x5a /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text.xtimer_now64
+                0x00000000       0x3a /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text._xtimer_set_absolute
+                0x00000000      0x13a /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text.xtimer_remove
+                0x00000000       0x32 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text.xtimer_set
+                0x00000000       0x66 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text._xtimer_set64
+                0x00000000       0xa0 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .text.vprintf  0x00000000        0xe /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .text.memcpy   0x00000000       0xe8 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_frame   0x00000000       0x30 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_info    0x00000000      0x144 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_abbrev  0x00000000       0xab /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_loc     0x00000000      0x2c3 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_aranges
+                0x00000000       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_ranges  0x00000000       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_line    0x00000000      0x11a /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .debug_str     0x00000000      0x13d /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .comment       0x00000000       0x31 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .gnu.attributes
+                0x00000000       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .text.memset   0x00000000       0x5c /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_frame   0x00000000       0x30 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_info    0x00000000      0x12d /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_abbrev  0x00000000       0xa1 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_loc     0x00000000      0x139 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_aranges
+                0x00000000       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_ranges  0x00000000       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_line    0x00000000       0xf4 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .debug_str     0x00000000      0x13b /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .comment       0x00000000       0x31 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .gnu.attributes
+                0x00000000       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ .text          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+ .data          0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+ .bss           0x00000000        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sfr              0x00000000         0x00000010
+peripheral_8bit  0x00000010         0x000000f0
+peripheral_16bit 0x00000100         0x00000100
+ram_mirror       0x00000200         0x00000800         xw
+infomem          0x00001000         0x00000100
+infod            0x00001000         0x00000040
+infoc            0x00001040         0x00000040
+infob            0x00001080         0x00000040
+infoa            0x000010c0         0x00000040
+ram              0x00001100         0x00002000         xw
+rom              0x00003100         0x0000cebe         xr
+vectors          0x0000ffc0         0x00000040
+far_rom          0x00010000         0x0000a000
+bsl              0x00000000         0x00000000
+ram2             0x00000000         0x00000000         xw
+usbram           0x00000000         0x00000000         xw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+LOAD /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+START GROUP
+LOAD /home/user/RIOT/examples/pChase/bin/z1/pChase.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/auto_init.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/board.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/core.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/cpu.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/periph.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/periph_common.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/sys.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/tsrb.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a
+LOAD /home/user/RIOT/examples/pChase/bin/z1/xtimer.a
+LOAD /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libm.a
+END GROUP
+LOAD /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a
+LOAD /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a
+LOAD /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a
+LOAD /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a
+LOAD /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a
+                0x00000040                PROVIDE (__info_segment_size, 0x40)
+                0x00001000                PROVIDE (__infod, 0x1000)
+                0x00001040                PROVIDE (__infoc, 0x1040)
+                0x00001080                PROVIDE (__infob, 0x1080)
+                0x000010c0                PROVIDE (__infoa, 0x10c0)
+                0x00000000                __IE1 = 0x0
+                0x00000002                __IFG1 = 0x2
+                0x00000001                __IE2 = 0x1
+                0x00000003                __IFG2 = 0x3
+                0x00000006                __UC1IE = 0x6
+                0x00000007                __UC1IFG = 0x7
+                0x000001a0                __ADC12CTL0 = 0x1a0
+                0x000001a2                __ADC12CTL1 = 0x1a2
+                0x000001a4                __ADC12IFG = 0x1a4
+                0x000001a6                __ADC12IE = 0x1a6
+                0x000001a8                __ADC12IV = 0x1a8
+                0x00000140                __ADC12MEM0 = 0x140
+                0x00000142                __ADC12MEM1 = 0x142
+                0x00000144                __ADC12MEM2 = 0x144
+                0x00000146                __ADC12MEM3 = 0x146
+                0x00000148                __ADC12MEM4 = 0x148
+                0x0000014a                __ADC12MEM5 = 0x14a
+                0x0000014c                __ADC12MEM6 = 0x14c
+                0x0000014e                __ADC12MEM7 = 0x14e
+                0x00000150                __ADC12MEM8 = 0x150
+                0x00000152                __ADC12MEM9 = 0x152
+                0x00000154                __ADC12MEM10 = 0x154
+                0x00000156                __ADC12MEM11 = 0x156
+                0x00000158                __ADC12MEM12 = 0x158
+                0x0000015a                __ADC12MEM13 = 0x15a
+                0x0000015c                __ADC12MEM14 = 0x15c
+                0x0000015e                __ADC12MEM15 = 0x15e
+                0x00000080                __ADC12MCTL0 = 0x80
+                0x00000081                __ADC12MCTL1 = 0x81
+                0x00000082                __ADC12MCTL2 = 0x82
+                0x00000083                __ADC12MCTL3 = 0x83
+                0x00000084                __ADC12MCTL4 = 0x84
+                0x00000085                __ADC12MCTL5 = 0x85
+                0x00000086                __ADC12MCTL6 = 0x86
+                0x00000087                __ADC12MCTL7 = 0x87
+                0x00000088                __ADC12MCTL8 = 0x88
+                0x00000089                __ADC12MCTL9 = 0x89
+                0x0000008a                __ADC12MCTL10 = 0x8a
+                0x0000008b                __ADC12MCTL11 = 0x8b
+                0x0000008c                __ADC12MCTL12 = 0x8c
+                0x0000008d                __ADC12MCTL13 = 0x8d
+                0x0000008e                __ADC12MCTL14 = 0x8e
+                0x0000008f                __ADC12MCTL15 = 0x8f
+                0x00000056                __DCOCTL = 0x56
+                0x00000057                __BCSCTL1 = 0x57
+                0x00000058                __BCSCTL2 = 0x58
+                0x00000053                __BCSCTL3 = 0x53
+                0x00000059                __CACTL1 = 0x59
+                0x0000005a                __CACTL2 = 0x5a
+                0x0000005b                __CAPD = 0x5b
+                0x000001c0                __DAC12_0CTL = 0x1c0
+                0x000001c2                __DAC12_1CTL = 0x1c2
+                0x000001c8                __DAC12_0DAT = 0x1c8
+                0x000001ca                __DAC12_1DAT = 0x1ca
+                0x00000122                __DMACTL0 = 0x122
+                0x00000124                __DMACTL1 = 0x124
+                0x00000126                __DMAIV = 0x126
+                0x000001d0                __DMA0CTL = 0x1d0
+                0x000001dc                __DMA1CTL = 0x1dc
+                0x000001e8                __DMA2CTL = 0x1e8
+                0x000001d2                __DMA0SA = 0x1d2
+                0x000001d2                __DMA0SAL = 0x1d2
+                0x000001d6                __DMA0DA = 0x1d6
+                0x000001d6                __DMA0DAL = 0x1d6
+                0x000001da                __DMA0SZ = 0x1da
+                0x000001de                __DMA1SA = 0x1de
+                0x000001de                __DMA1SAL = 0x1de
+                0x000001e2                __DMA1DA = 0x1e2
+                0x000001e2                __DMA1DAL = 0x1e2
+                0x000001e6                __DMA1SZ = 0x1e6
+                0x000001ea                __DMA2SA = 0x1ea
+                0x000001ea                __DMA2SAL = 0x1ea
+                0x000001ee                __DMA2DA = 0x1ee
+                0x000001ee                __DMA2DAL = 0x1ee
+                0x000001f2                __DMA2SZ = 0x1f2
+                0x00000128                __FCTL1 = 0x128
+                0x0000012a                __FCTL2 = 0x12a
+                0x0000012c                __FCTL3 = 0x12c
+                0x000001be                __FCTL4 = 0x1be
+                0x00000130                __MPY = 0x130
+                0x00000132                __MPYS = 0x132
+                0x00000134                __MAC = 0x134
+                0x00000136                __MACS = 0x136
+                0x00000138                __OP2 = 0x138
+                0x0000013a                __RESLO = 0x13a
+                0x0000013c                __RESHI = 0x13c
+                0x0000013e                __SUMEXT = 0x13e
+                0x00000020                __P1IN = 0x20
+                0x00000021                __P1OUT = 0x21
+                0x00000022                __P1DIR = 0x22
+                0x00000023                __P1IFG = 0x23
+                0x00000024                __P1IES = 0x24
+                0x00000025                __P1IE = 0x25
+                0x00000026                __P1SEL = 0x26
+                0x00000027                __P1REN = 0x27
+                0x00000028                __P2IN = 0x28
+                0x00000029                __P2OUT = 0x29
+                0x0000002a                __P2DIR = 0x2a
+                0x0000002b                __P2IFG = 0x2b
+                0x0000002c                __P2IES = 0x2c
+                0x0000002d                __P2IE = 0x2d
+                0x0000002e                __P2SEL = 0x2e
+                0x0000002f                __P2REN = 0x2f
+                0x00000018                __P3IN = 0x18
+                0x00000019                __P3OUT = 0x19
+                0x0000001a                __P3DIR = 0x1a
+                0x0000001b                __P3SEL = 0x1b
+                0x00000010                __P3REN = 0x10
+                0x0000001c                __P4IN = 0x1c
+                0x0000001d                __P4OUT = 0x1d
+                0x0000001e                __P4DIR = 0x1e
+                0x0000001f                __P4SEL = 0x1f
+                0x00000011                __P4REN = 0x11
+                0x00000030                __P5IN = 0x30
+                0x00000031                __P5OUT = 0x31
+                0x00000032                __P5DIR = 0x32
+                0x00000033                __P5SEL = 0x33
+                0x00000012                __P5REN = 0x12
+                0x00000034                __P6IN = 0x34
+                0x00000035                __P6OUT = 0x35
+                0x00000036                __P6DIR = 0x36
+                0x00000037                __P6SEL = 0x37
+                0x00000013                __P6REN = 0x13
+                0x00000038                __P7IN = 0x38
+                0x0000003a                __P7OUT = 0x3a
+                0x0000003c                __P7DIR = 0x3c
+                0x0000003e                __P7SEL = 0x3e
+                0x00000014                __P7REN = 0x14
+                0x00000039                __P8IN = 0x39
+                0x0000003b                __P8OUT = 0x3b
+                0x0000003d                __P8DIR = 0x3d
+                0x0000003f                __P8SEL = 0x3f
+                0x00000015                __P8REN = 0x15
+                0x00000038                __PAIN = 0x38
+                0x0000003a                __PAOUT = 0x3a
+                0x0000003c                __PADIR = 0x3c
+                0x0000003e                __PASEL = 0x3e
+                0x00000014                __PAREN = 0x14
+                0x00000055                __SVSCTL = 0x55
+                0x0000012e                __TAIV = 0x12e
+                0x00000160                __TACTL = 0x160
+                0x00000162                __TACCTL0 = 0x162
+                0x00000164                __TACCTL1 = 0x164
+                0x00000166                __TACCTL2 = 0x166
+                0x00000170                __TAR = 0x170
+                0x00000172                __TACCR0 = 0x172
+                0x00000174                __TACCR1 = 0x174
+                0x00000176                __TACCR2 = 0x176
+                0x0000011e                __TBIV = 0x11e
+                0x00000180                __TBCTL = 0x180
+                0x00000182                __TBCCTL0 = 0x182
+                0x00000184                __TBCCTL1 = 0x184
+                0x00000186                __TBCCTL2 = 0x186
+                0x00000188                __TBCCTL3 = 0x188
+                0x0000018a                __TBCCTL4 = 0x18a
+                0x0000018c                __TBCCTL5 = 0x18c
+                0x0000018e                __TBCCTL6 = 0x18e
+                0x00000190                __TBR = 0x190
+                0x00000192                __TBCCR0 = 0x192
+                0x00000194                __TBCCR1 = 0x194
+                0x00000196                __TBCCR2 = 0x196
+                0x00000198                __TBCCR3 = 0x198
+                0x0000019a                __TBCCR4 = 0x19a
+                0x0000019c                __TBCCR5 = 0x19c
+                0x0000019e                __TBCCR6 = 0x19e
+                0x00000060                __UCA0CTL0 = 0x60
+                0x00000061                __UCA0CTL1 = 0x61
+                0x00000062                __UCA0BR0 = 0x62
+                0x00000063                __UCA0BR1 = 0x63
+                0x00000064                __UCA0MCTL = 0x64
+                0x00000065                __UCA0STAT = 0x65
+                0x00000066                __UCA0RXBUF = 0x66
+                0x00000067                __UCA0TXBUF = 0x67
+                0x0000005d                __UCA0ABCTL = 0x5d
+                0x0000005e                __UCA0IRTCTL = 0x5e
+                0x0000005f                __UCA0IRRCTL = 0x5f
+                0x00000068                __UCB0CTL0 = 0x68
+                0x00000069                __UCB0CTL1 = 0x69
+                0x0000006a                __UCB0BR0 = 0x6a
+                0x0000006b                __UCB0BR1 = 0x6b
+                0x0000006c                __UCB0I2CIE = 0x6c
+                0x0000006d                __UCB0STAT = 0x6d
+                0x0000006e                __UCB0RXBUF = 0x6e
+                0x0000006f                __UCB0TXBUF = 0x6f
+                0x00000118                __UCB0I2COA = 0x118
+                0x0000011a                __UCB0I2CSA = 0x11a
+                0x000000d0                __UCA1CTL0 = 0xd0
+                0x000000d1                __UCA1CTL1 = 0xd1
+                0x000000d2                __UCA1BR0 = 0xd2
+                0x000000d3                __UCA1BR1 = 0xd3
+                0x000000d4                __UCA1MCTL = 0xd4
+                0x000000d5                __UCA1STAT = 0xd5
+                0x000000d6                __UCA1RXBUF = 0xd6
+                0x000000d7                __UCA1TXBUF = 0xd7
+                0x000000cd                __UCA1ABCTL = 0xcd
+                0x000000ce                __UCA1IRTCTL = 0xce
+                0x000000cf                __UCA1IRRCTL = 0xcf
+                0x000000d8                __UCB1CTL0 = 0xd8
+                0x000000d9                __UCB1CTL1 = 0xd9
+                0x000000da                __UCB1BR0 = 0xda
+                0x000000db                __UCB1BR1 = 0xdb
+                0x000000dc                __UCB1I2CIE = 0xdc
+                0x000000dd                __UCB1STAT = 0xdd
+                0x000000de                __UCB1RXBUF = 0xde
+                0x000000df                __UCB1TXBUF = 0xdf
+                0x0000017c                __UCB1I2COA = 0x17c
+                0x0000017e                __UCB1I2CSA = 0x17e
+                0x00000120                __WDTCTL = 0x120
+                0x000010c0                __TLV_CHECKSUM = 0x10c0
+                0x000010f6                __TLV_DCO_30_TAG = 0x10f6
+                0x000010f7                __TLV_DCO_30_LEN = 0x10f7
+                0x000010da                __TLV_ADC12_1_TAG = 0x10da
+                0x000010db                __TLV_ADC12_1_LEN = 0x10db
+                0x000010f8                __CALDCO_16MHZ = 0x10f8
+                0x000010f9                __CALBC1_16MHZ = 0x10f9
+                0x000010fa                __CALDCO_12MHZ = 0x10fa
+                0x000010fb                __CALBC1_12MHZ = 0x10fb
+                0x000010fc                __CALDCO_8MHZ = 0x10fc
+                0x000010fd                __CALBC1_8MHZ = 0x10fd
+                0x000010fe                __CALDCO_1MHZ = 0x10fe
+                0x000010ff                __CALBC1_1MHZ = 0x10ff
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00003100     0x180c
+                0x00003100                . = ALIGN (0x2)
+ *(.init .init.*)
+ *(.init0)
+ .init0         0x00003100        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+                0x00003100                _reset_vector__
+ *(.init1)
+ .init1         0x00003100        0xc /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+                0x00003100                __watchdog_support
+ *(.init2)
+ .init2         0x0000310c        0x4 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+                0x0000310c                __init_stack
+ *(.init3)
+ .init3         0x00003110        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+                0x00003110                __low_level_init
+ *(.init4)
+ .init4         0x00003110       0x18 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+                0x00003110                __do_copy_data
+ .init4         0x00003128       0x16 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+                0x00003128                __do_clear_bss
+ *(.init5)
+ *(.init6)
+ .init6         0x0000313e       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+                0x0000313e                __do_global_ctors
+ *(.init7)
+ *(.init8)
+ *(.init9)
+ .init9         0x00003152      0x188 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+                0x00003152                main
+ *(.fini9)
+ .fini9         0x000032da        0x4 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                0x000032da                __main_epilogue
+ .fini9         0x000032de        0x0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+                0x000032de                __stop_progExec__
+ *(.fini8)
+ *(.fini7)
+ *(.fini6)
+ *(.fini5)
+ *(.fini4)
+ *(.fini3)
+ *(.fini2)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000032de        0x6 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+                0x000032de                _endless_loop__
+ *(.fini .fini.*)
+                0x000032e4                . = ALIGN (0x2)
+                0x000032e4                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000032e4        0x2 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+                0x000032e6                __ctors_end = .
+                0x000032e6                __dtors_start = .
+ *(.dtors)
+                0x000032e6                __dtors_end = .
+                0x000032e6                . = ALIGN (0x2)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x000032e6        0x4 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+                0x000032e6                __isr_14
+                0x000032e6                __isr_4
+                0x000032e6                __isr_19
+                0x000032e6                __isr_29
+                0x000032e6                __isr_11
+                0x000032e6                __isr_16
+                0x000032e6                __isr_26
+                0x000032e6                __isr_5
+                0x000032e6                __isr_2
+                0x000032e6                __isr_10
+                0x000032e6                __isr_7
+                0x000032e6                __isr_0
+                0x000032e6                __isr_28
+                0x000032e6                __isr_8
+                0x000032e6                __isr_20
+                0x000032e6                __isr_3
+                0x000032e6                __isr_18
+                0x000032e6                __isr_12
+                0x000032e6                __isr_13
+                0x000032e6                __isr_27
+                0x000032e6                __isr_9
+                0x000032e6                __isr_30
+                0x000032e6                __isr_6
+                0x000032e6                __isr_22
+                0x000032e6                __isr_1
+                0x000032e6                __isr_15
+                0x000032e6                __isr_17
+                0x000032e6                __isr_21
+ .text.startup  0x000032ea       0x1a /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .text.msp430_init_dco
+                0x00003304       0x20 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+                0x00003304                msp430_init_dco
+ .text.board_init
+                0x00003324       0x74 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+                0x00003324                board_init
+ .text.main_trampoline
+                0x00003398       0x14 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .text.idle_thread
+                0x000033ac        0xc /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .text.kernel_init
+                0x000033b8       0x4c /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+                0x000033b8                kernel_init
+ .text.thread_create
+                0x00003404       0xfc /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+                0x00003404                thread_create
+ .text.core_panic
+                0x00003500       0x38 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+                0x00003500                core_panic
+ .text.sched_run
+                0x00003538       0x50 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x00003538                sched_run
+ .text.sched_set_status
+                0x00003588       0xc4 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x00003588                sched_set_status
+ .text.sched_switch
+                0x0000364c       0x2a /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x0000364c                sched_switch
+ .text.sched_task_exit
+                0x00003676       0x24 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x00003676                sched_task_exit
+ .text.bitarithm_lsb
+                0x0000369a       0x10 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+                0x0000369a                bitarithm_lsb
+ .text.putchar  0x000036aa       0x12 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+                0x000036aa                putchar
+ .text.thread_yield_higher
+                0x000036bc       0x4c /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                0x000036bc                thread_yield_higher
+ .text.cpu_switch_context_exit
+                0x00003708       0x2a /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                0x00003708                cpu_switch_context_exit
+ .text.thread_stack_init
+                0x00003732       0x34 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                0x00003732                thread_stack_init
+ .text.irq_disable
+                0x00003766        0xc /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                0x00003766                irq_disable
+ .text.irq_enable
+                0x00003772        0xc /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                0x00003772                irq_enable
+ .text.irq_restore
+                0x0000377e        0xa /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                0x0000377e                irq_restore
+ .text.irq_is_in
+                0x00003788        0x6 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                0x00003788                irq_is_in
+ .text.lpm_get  0x0000378e       0x4a /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+                0x0000378e                lpm_get
+ .text.lpm_set  0x000037d8       0x5a /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+                0x000037d8                lpm_set
+ .text.msp430_cpu_init
+                0x00003832       0x20 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+                0x00003832                msp430_cpu_init
+ .text.sbrk     0x00003852       0x1e /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+                0x00003852                sbrk
+ .text.panic_arch
+                0x00003870        0xe /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+                0x00003870                panic_arch
+ .text.uart_stdio_rx_cb
+                0x0000387e       0x12 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+                0x0000387e                uart_stdio_rx_cb
+ .text.uart_stdio_init
+                0x00003890       0x16 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+                0x00003890                uart_stdio_init
+ .text.uart_stdio_write
+                0x000038a6       0x14 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+                0x000038a6                uart_stdio_write
+ .text.xtimer_now
+                0x000038ba       0x2e /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .text.auto_init
+                0x000038e8        0x6 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+                0x000038e8                auto_init
+ .text.mutex_unlock
+                0x000038ee       0x50 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                0x000038ee                mutex_unlock
+ .text.malloc   0x0000393e       0x10 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+                0x0000393e                malloc
+ .text.free     0x0000394e        0x2 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+                0x0000394e                free
+ .text.timer_init
+                0x00003950       0x3e /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                0x00003950                timer_init
+ .text.timer_set_absolute
+                0x0000398e       0x2c /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                0x0000398e                timer_set_absolute
+ .text.timer_read
+                0x000039ba        0x6 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                0x000039ba                timer_read
+ .text.uart_init
+                0x000039c0       0xae /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                0x000039c0                uart_init
+ .text.uart_write
+                0x00003a6e       0x1a /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                0x00003a6e                uart_write
+ .text.tsrb_add_one
+                0x00003a88       0x32 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+                0x00003a88                tsrb_add_one
+ .text._lltimer_set
+                0x00003aba       0x20 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text._next_period
+                0x00003ada      0x112 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text._periph_timer_callback
+                0x00003bec      0x16c /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .text.xtimer_init
+                0x00003d58       0x20 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+                0x00003d58                xtimer_init
+ .text.libgcc   0x00003d78       0x3a /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+                0x00003d78                __ext_divmod16
+                0x00003d78                __divhi3
+                0x00003daa                __modhi3
+ .text.libgcc   0x00003db2       0x38 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+                0x00003db2                __udivsi3
+                0x00003db2                __ext_udivmod32
+                0x00003de0                __umodsi3
+ .text.libgcc   0x00003dea       0x22 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+                0x00003dea                __udivhi3
+                0x00003dea                __ext_udivmod16
+                0x00003e04                __umodhi3
+ .text.printf   0x00003e0c       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+                0x00003e0c                printf
+ .text.print_field
+                0x00003e1c      0x176 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .text.vuprintf
+                0x00003f92      0x740 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+                0x00003f92                vuprintf
+ .text.puts     0x000046d2       0x2c /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+                0x000046d2                puts
+ .text.libgcc   0x000046fe       0xbc /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+                0x000046fe                __xabi_udivmod64
+                0x00004750                __udivdi3
+                0x0000476a                __umoddi3
+                0x0000478c                __udivmoddi4
+ .text.crt0     0x000047ba        0x2 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+                0x000047ba                _unexpected_
+ *(.near.text .near.text.*)
+ .near.text.isr_timer_a_cc0
+                0x000047bc       0x6a /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                0x000047bc                isr_timer_a_cc0
+                0x000047bc                __isr_25
+ .near.text.isr_timer_a_ccx
+                0x00004826       0x76 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                0x00004826                __isr_24
+                0x00004826                isr_timer_a_ccx
+ .near.text.isr_uart_0_rx
+                0x0000489c       0x70 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                0x0000489c                isr_uart_0_rx
+                0x0000489c                __isr_23
+
+.rodata         0x0000490c      0x24d
+                0x0000490c                . = ALIGN (0x2)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.startup
+                0x0000490c       0x2f /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .rodata.main_trampoline
+                0x0000493b       0x48 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .rodata        0x00004983        0xa /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .rodata.core_panic
+                0x0000498d       0x2d /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .rodata.assert_crash_message
+                0x000049ba       0x12 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+                0x000049ba                assert_crash_message
+ .rodata.lpm_set
+                0x000049cc        0xc /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .rodata        0x000049d8      0x165 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ *fill*         0x00004b3d        0x1 00
+ .rodata.BYTES_PER_PAGE
+                0x00004b3e        0xa /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .rodata.BYTES_PER_LINE
+                0x00004b48        0xa /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .rodata.vuprintf
+                0x00004b52        0x7 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ *(.near.rodata .near.rodata.*)
+                0x00004b5a                . = ALIGN (0x2)
+                0x00004b5a                _etext = .
+
+.data           0x00001100        0xe load address 0x00004b5a
+                0x00001100                . = ALIGN (0x2)
+                0x00001100                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.idle_name
+                0x00001100        0x2 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+                0x00001100                idle_name
+ .data.main_name
+                0x00001102        0x2 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+                0x00001102                main_name
+ .data.cur_break
+                0x00001104        0x2 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .data._rx_buf  0x00001106        0x8 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ *(.near.data .near.data.*)
+                0x0000110e                . = ALIGN (0x2)
+                0x0000110e                _edata = .
+                0x00004b5a                __data_load_start = LOADADDR (.data)
+                0x0000000e                __data_size = SIZEOF (.data)
+
+.bss            0x0000110e      0x42e load address 0x00004b68
+                0x0000110e                __bss_start = .
+ *(.bss .bss.*)
+ .bss.lpm_prevent_sleep
+                0x0000110e        0x2 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+                0x0000110e                lpm_prevent_sleep
+ .bss.idle_stack
+                0x00001110       0x60 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .bss.main_stack
+                0x00001170      0x200 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .bss.crashed   0x00001370        0x2 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .bss.sched_runqueues
+                0x00001372       0x20 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x00001372                sched_runqueues
+ .bss.sched_active_pid
+                0x00001392        0x2 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x00001392                sched_active_pid
+ .bss.sched_active_thread
+                0x00001394        0x2 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x00001394                sched_active_thread
+ .bss.sched_threads
+                0x00001396       0x42 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x00001396                sched_threads
+ .bss.sched_context_switch_request
+                0x000013d8        0x2 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x000013d8                sched_context_switch_request
+ .bss.sched_num_threads
+                0x000013da        0x2 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                0x000013da                sched_num_threads
+ .bss.runqueue_bitcache
+                0x000013dc        0x4 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .bss.__isr_stack
+                0x000013e0      0x100 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                0x000013e0                __isr_stack
+ .bss.__irq_is_in
+                0x000014e0        0x2 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                0x000014e0                __irq_is_in
+ .bss._rx_mutex
+                0x000014e2        0x2 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .bss._rx_buf_mem
+                0x000014e4       0x40 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .bss.isr_cb    0x00001524        0x2 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .bss.isr_arg   0x00001526        0x2 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .bss.ctx_rx_cb
+                0x00001528        0x2 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .bss.ctx_isr_arg
+                0x0000152a        0x2 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .bss._xtimer_high_cnt
+                0x0000152c        0x4 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+                0x0000152c                _xtimer_high_cnt
+ .bss._long_cnt
+                0x00001530        0x4 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .bss._in_handler
+                0x00001534        0x2 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .bss.timer_list_head
+                0x00001536        0x2 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .bss.overflow_list_head
+                0x00001538        0x2 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .bss.long_list_head
+                0x0000153a        0x2 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ *(.near.bss .near.bss.*)
+ *(COMMON)
+                0x0000153c                . = ALIGN (0x2)
+                0x0000153c                __bss_end = .
+                0x0000042e                __bss_size = SIZEOF (.bss)
+
+.noinit         0x0000153c        0x2 load address 0x00004b68
+                0x0000153c                . = ALIGN (0x2)
+                0x0000153c                __noinit_start = .
+ *(.noinit .noinit.*)
+ .noinit.crt0   0x0000153c        0x2 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+                0x0000153c                __wdt_clear_value
+                0x0000153e                . = ALIGN (0x2)
+                0x0000153e                __noinit_end = .
+                0x0000153e                . = ALIGN (0x2)
+                0x0000153e                _end = .
+
+.infomem        0x00001000        0x0
+                0x00001000                . = ALIGN (0x2)
+ *(.infomem .infomem.*)
+
+.infomemnobits  0x00001000        0x0
+                0x00001000                . = ALIGN (0x2)
+ *(.infomemnobits .infomemnobits.*)
+
+.infoa          0x000010c0        0x0
+                0x000010c0                . = ALIGN (0x2)
+ *(.infoa .infoa.*)
+
+.infob          0x00001080        0x0
+                0x00001080                . = ALIGN (0x2)
+ *(.infob .infob.*)
+
+.infoc          0x00001040        0x0
+                0x00001040                . = ALIGN (0x2)
+ *(.infoc .infoc.*)
+
+.infod          0x00001000        0x0
+                0x00001000                . = ALIGN (0x2)
+ *(.infod .infod.*)
+
+.vectors        0x0000ffc0       0x40
+                0x0000ffc0                __vectors_start = .
+ *(.vectors*)
+ .vectors       0x0000ffc0       0x40 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+                0x0000ffc0                __ivtbl_32
+                0x00010000                _vectors_end = .
+
+.fartext        0x00010000        0x0
+                0x00010000                . = ALIGN (0x2)
+ *(.fartext .fartext.*)
+
+.far.text       0x00010000        0x0
+                0x00010000                . = ALIGN (0x2)
+ *(.far.text .far.text.*)
+
+.far.rodata     0x00010000        0x0
+                0x00010000                . = ALIGN (0x2)
+ *(.far.rodata .far.rodata.*)
+                0x00010000                . = ALIGN (0x2)
+                0x00010000                _efartext = .
+
+.far.data       0x00000000        0x0 load address 0x00010000
+                0x00000000                . = ALIGN (0x2)
+                0x00000000                __far_data_start = .
+ *(.far.data .far.data.*)
+                0x00000000                . = ALIGN (0x2)
+                0x00000000                _efardata = .
+                0x00010000                __far_data_load_start = LOADADDR (.far.data)
+                0x00000000                __far_data_size = SIZEOF (.far.data)
+
+.far.bss        0x00000000        0x0 load address 0x00010000
+                0x00000000                . = ALIGN (0x2)
+                0x00000000                __far_bss_start = .
+ *(.far.bss .far.bss.*)
+                0x00000000                . = ALIGN (0x2)
+                0x00000000                __far_bss_end = .
+                0x00000000                __far_bss_size = SIZEOF (.far.bss)
+                0x00000000                . = ALIGN (0x2)
+                0x00000000                _far_end = .
+
+.profiler
+ *(.profiler)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .comment       0x00000000       0x31 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .comment       0x00000000       0x31 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .comment       0x00000000       0x31 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .comment       0x00000000       0x31 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x710
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+ .debug_aranges
+                0x00000020       0x20 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .debug_aranges
+                0x00000040       0x28 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .debug_aranges
+                0x00000068       0x30 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .debug_aranges
+                0x00000098       0x60 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .debug_aranges
+                0x000000f8       0x20 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .debug_aranges
+                0x00000118       0x38 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .debug_aranges
+                0x00000150       0x30 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .debug_aranges
+                0x00000180       0x30 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .debug_aranges
+                0x000001b0       0x58 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .debug_aranges
+                0x00000208       0x38 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .debug_aranges
+                0x00000240       0x48 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .debug_aranges
+                0x00000288       0x38 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .debug_aranges
+                0x000002c0       0x20 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .debug_aranges
+                0x000002e0       0x38 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .debug_aranges
+                0x00000318       0x28 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .debug_aranges
+                0x00000340       0x20 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .debug_aranges
+                0x00000360       0x30 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .debug_aranges
+                0x00000390       0x38 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .debug_aranges
+                0x000003c8       0x70 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .debug_aranges
+                0x00000438       0x40 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .debug_aranges
+                0x00000478       0x38 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .debug_aranges
+                0x000004b0       0x90 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .debug_aranges
+                0x00000540       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+ .debug_aranges
+                0x00000560       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .debug_aranges
+                0x00000580       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+ .debug_aranges
+                0x000005a0       0x28 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .debug_aranges
+                0x000005c8       0x28 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .debug_aranges
+                0x000005f0       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+ .debug_aranges
+                0x00000610       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+ .debug_aranges
+                0x00000630       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .debug_aranges
+                0x00000650       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .debug_aranges
+                0x00000670       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .debug_aranges
+                0x00000690       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .debug_aranges
+                0x000006b0       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .debug_aranges
+                0x000006d0       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ .debug_aranges
+                0x000006f0       0x20 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x843e
+ *(.debug_info)
+ .debug_info    0x00000000       0xac /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+ .debug_info    0x000000ac      0x117 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .debug_info    0x000001c3      0x510 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .debug_info    0x000006d3      0x378 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .debug_info    0x00000a4b      0x97f /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .debug_info    0x000013ca      0x45e /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .debug_info    0x00001828      0x57b /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .debug_info    0x00001da3      0x110 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .debug_info    0x00001eb3      0x428 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .debug_info    0x000022db      0x505 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .debug_info    0x000027e0      0x3c3 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .debug_info    0x00002ba3      0x45b /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .debug_info    0x00002ffe      0x438 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .debug_info    0x00003436      0x370 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .debug_info    0x000037a6      0x65e /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .debug_info    0x00003e04      0x671 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .debug_info    0x00004475      0x323 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .debug_info    0x00004798      0x5fa /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .debug_info    0x00004d92      0x2cc /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .debug_info    0x0000505e      0x725 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .debug_info    0x00005783      0x77a /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .debug_info    0x00005efd      0x349 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .debug_info    0x00006246     0x11e8 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .debug_info    0x0000742e       0xa9 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+ .debug_info    0x000074d7       0xa9 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .debug_info    0x00007580       0xa9 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+ .debug_info    0x00007629      0x18d /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .debug_info    0x000077b6      0x66d /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .debug_info    0x00007e23       0xe1 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+ .debug_info    0x00007f04       0xa9 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+ .debug_info    0x00007fad       0xa7 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .debug_info    0x00008054       0xa7 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .debug_info    0x000080fb       0xa7 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .debug_info    0x000081a2       0xa7 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .debug_info    0x00008249       0xa7 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .debug_info    0x000082f0       0xa7 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ .debug_info    0x00008397       0xa7 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x2f22
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+ .debug_abbrev  0x00000014       0xa3 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .debug_abbrev  0x000000b7      0x16f /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .debug_abbrev  0x00000226      0x1d5 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .debug_abbrev  0x000003fb      0x2fa /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .debug_abbrev  0x000006f5      0x1f5 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .debug_abbrev  0x000008ea      0x279 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .debug_abbrev  0x00000b63       0x7e /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .debug_abbrev  0x00000be1      0x19f /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .debug_abbrev  0x00000d80      0x20d /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .debug_abbrev  0x00000f8d      0x18c /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .debug_abbrev  0x00001119      0x206 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .debug_abbrev  0x0000131f      0x1c0 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .debug_abbrev  0x000014df      0x166 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .debug_abbrev  0x00001645      0x216 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .debug_abbrev  0x0000185b      0x209 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .debug_abbrev  0x00001a64      0x125 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .debug_abbrev  0x00001b89      0x24d /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .debug_abbrev  0x00001dd6      0x1a8 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .debug_abbrev  0x00001f7e      0x24a /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .debug_abbrev  0x000021c8      0x270 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .debug_abbrev  0x00002438      0x159 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .debug_abbrev  0x00002591      0x4da /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .debug_abbrev  0x00002a6b       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+ .debug_abbrev  0x00002a7f       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .debug_abbrev  0x00002a93       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+ .debug_abbrev  0x00002aa7       0xfa /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .debug_abbrev  0x00002ba1      0x23e /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .debug_abbrev  0x00002ddf       0xa3 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+ .debug_abbrev  0x00002e82       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+ .debug_abbrev  0x00002e96       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .debug_abbrev  0x00002eaa       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .debug_abbrev  0x00002ebe       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .debug_abbrev  0x00002ed2       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .debug_abbrev  0x00002ee6       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .debug_abbrev  0x00002efa       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ .debug_abbrev  0x00002f0e       0x14 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+
+.debug_line     0x00000000     0x363f
+ *(.debug_line)
+ .debug_line    0x00000000       0x69 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+ .debug_line    0x00000069       0xe1 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .debug_line    0x0000014a      0x1ce /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .debug_line    0x00000318      0x1bc /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .debug_line    0x000004d4      0x293 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .debug_line    0x00000767      0x1c3 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .debug_line    0x0000092a      0x1b9 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .debug_line    0x00000ae3       0x96 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .debug_line    0x00000b79      0x1ff /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .debug_line    0x00000d78      0x26c /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .debug_line    0x00000fe4      0x1a8 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .debug_line    0x0000118c      0x219 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .debug_line    0x000013a5      0x1cc /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .debug_line    0x00001571      0x1aa /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .debug_line    0x0000171b      0x244 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .debug_line    0x0000195f      0x2e1 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .debug_line    0x00001c40      0x1bb /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .debug_line    0x00001dfb      0x189 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .debug_line    0x00001f84      0x18d /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .debug_line    0x00002111      0x2f9 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .debug_line    0x0000240a      0x2b0 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .debug_line    0x000026ba      0x162 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .debug_line    0x0000281c      0x4b6 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .debug_line    0x00002cd2       0x80 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+ .debug_line    0x00002d52       0x80 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .debug_line    0x00002dd2       0x75 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+ .debug_line    0x00002e47       0xad /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .debug_line    0x00002ef4      0x35d /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .debug_line    0x00003251       0x67 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+ .debug_line    0x000032b8       0xb0 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+ .debug_line    0x00003368       0x67 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .debug_line    0x000033cf       0x65 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .debug_line    0x00003434       0x6b /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .debug_line    0x0000349f       0x6b /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .debug_line    0x0000350a       0x66 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .debug_line    0x00003570       0x65 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ .debug_line    0x000035d5       0x6a /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+
+.debug_frame    0x00000000      0xaac
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x24 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .debug_frame   0x00000024       0x34 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .debug_frame   0x00000058       0x5c /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .debug_frame   0x000000b4       0xd0 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .debug_frame   0x00000184       0x34 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .debug_frame   0x000001b8       0x64 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .debug_frame   0x0000021c       0x44 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .debug_frame   0x00000260       0x4c /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .debug_frame   0x000002ac       0x94 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .debug_frame   0x00000340       0x54 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .debug_frame   0x00000394       0x7c /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .debug_frame   0x00000410       0x54 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .debug_frame   0x00000464       0x24 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .debug_frame   0x00000488       0x6c /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .debug_frame   0x000004f4       0x94 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .debug_frame   0x00000588       0x24 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .debug_frame   0x000005ac       0x64 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .debug_frame   0x00000610       0x68 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .debug_frame   0x00000678       0xc4 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .debug_frame   0x0000073c       0x70 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .debug_frame   0x000007ac       0x70 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .debug_frame   0x0000081c      0x1ac /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .debug_frame   0x000009c8       0x34 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .debug_frame   0x000009fc       0x84 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .debug_frame   0x00000a80       0x2c /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+
+.debug_str      0x00000000     0x1531
+ *(.debug_str)
+ .debug_str     0x00000000       0xc2 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+                                0x100 (size before relaxing)
+ .debug_str     0x000000c2      0x253 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+                                0x3ea (size before relaxing)
+ .debug_str     0x00000315      0x159 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+                                0x262 (size before relaxing)
+ .debug_str     0x0000046e      0x23a /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+                                0x490 (size before relaxing)
+ .debug_str     0x000006a8       0x56 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+                                0x35e (size before relaxing)
+ .debug_str     0x000006fe       0xbb /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                0x37c (size before relaxing)
+ .debug_str     0x000007b9       0x42 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+                                 0xf3 (size before relaxing)
+ .debug_str     0x000007fb       0x6c /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+                                0x2ae (size before relaxing)
+ .debug_str     0x00000867       0xea /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                                0x39a (size before relaxing)
+ .debug_str     0x00000951       0x35 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                                0x2a3 (size before relaxing)
+ .debug_str     0x00000986       0x87 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+                                0x37a (size before relaxing)
+ .debug_str     0x00000a0d       0x7b /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+                                0x2f1 (size before relaxing)
+ .debug_str     0x00000a88       0x2a /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+                                0x2bf (size before relaxing)
+ .debug_str     0x00000ab2       0xce /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+                                0x367 (size before relaxing)
+ .debug_str     0x00000b80      0x13a /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+                                0x399 (size before relaxing)
+ .debug_str     0x00000cba       0x2a /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+                                0x27e (size before relaxing)
+ .debug_str     0x00000ce4       0x68 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                                0x2f3 (size before relaxing)
+ .debug_str     0x00000d4c       0x56 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+                                0x15f (size before relaxing)
+ .debug_str     0x00000da2      0x10c /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                                0x3ac (size before relaxing)
+ .debug_str     0x00000eae      0x128 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                                0x3d7 (size before relaxing)
+ .debug_str     0x00000fd6       0x56 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+                                 0xe3 (size before relaxing)
+ .debug_str     0x0000102c      0x284 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+                                0x5ad (size before relaxing)
+ .debug_str     0x000012b0       0x7d /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+                                0x147 (size before relaxing)
+ .debug_str     0x0000132d      0x1f4 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+                                0x3ad (size before relaxing)
+ .debug_str     0x00001521       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+                                0x10c (size before relaxing)
+
+.debug_loc      0x00000000     0x3205
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x95 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .debug_loc     0x00000095      0x49e /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .debug_loc     0x00000533       0x83 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .debug_loc     0x000005b6      0x1e4 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .debug_loc     0x0000079a       0xb7 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .debug_loc     0x00000851       0xfe /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .debug_loc     0x0000094f      0x102 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .debug_loc     0x00000a51       0xf3 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .debug_loc     0x00000b44       0x6a /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .debug_loc     0x00000bae      0x15d /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .debug_loc     0x00000d0b      0x5fa /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .debug_loc     0x00001305      0x1ca /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .debug_loc     0x000014cf      0x114 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .debug_loc     0x000015e3      0x1d5 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .debug_loc     0x000017b8      0x1fc /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .debug_loc     0x000019b4      0x2ac /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .debug_loc     0x00001c60      0x8b7 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .debug_loc     0x00002517       0x78 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .debug_loc     0x0000258f      0xc38 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .debug_loc     0x000031c7       0x3e /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x520
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .debug_ranges  0x00000010       0x18 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .debug_ranges  0x00000028       0x20 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .debug_ranges  0x00000048       0x50 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .debug_ranges  0x00000098       0x10 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .debug_ranges  0x000000a8       0x28 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .debug_ranges  0x000000d0       0x20 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .debug_ranges  0x000000f0       0x20 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .debug_ranges  0x00000110       0x48 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .debug_ranges  0x00000158       0x28 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .debug_ranges  0x00000180       0x38 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .debug_ranges  0x000001b8       0x28 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .debug_ranges  0x000001e0       0x10 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .debug_ranges  0x000001f0       0x28 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .debug_ranges  0x00000218       0x30 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .debug_ranges  0x00000248       0x10 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .debug_ranges  0x00000258       0x20 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .debug_ranges  0x00000278       0x28 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .debug_ranges  0x000002a0       0x60 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .debug_ranges  0x00000300       0x60 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .debug_ranges  0x00000360       0x28 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .debug_ranges  0x00000388      0x128 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .debug_ranges  0x000004b0       0x18 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .debug_ranges  0x000004c8       0x48 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .debug_ranges  0x00000510       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+                0x00003100                PROVIDE (__stack, (ORIGIN (ram) + 0x2000))
+                0x00004b5a                __data_start_rom = _etext
+                0x00004b68                __data_end_rom = (_etext + SIZEOF (.data))
+OUTPUT(/home/user/RIOT/examples/pChase/bin/z1/pChase.elf elf32-msp430)
+
+.gnu.attributes
+                0x00000000       0x10
+ .gnu.attributes
+                0x00000000       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+ .gnu.attributes
+                0x00000010       0x10 /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+ .gnu.attributes
+                0x00000020       0x10 /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+ .gnu.attributes
+                0x00000030       0x10 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+ .gnu.attributes
+                0x00000040       0x10 /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+ .gnu.attributes
+                0x00000050       0x10 /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+ .gnu.attributes
+                0x00000060       0x10 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+ .gnu.attributes
+                0x00000070       0x10 /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+ .gnu.attributes
+                0x00000080       0x10 /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+ .gnu.attributes
+                0x00000090       0x10 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+ .gnu.attributes
+                0x000000a0       0x10 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+ .gnu.attributes
+                0x000000b0       0x10 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+ .gnu.attributes
+                0x000000c0       0x10 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+ .gnu.attributes
+                0x000000d0       0x10 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+ .gnu.attributes
+                0x000000e0       0x10 /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+ .gnu.attributes
+                0x000000f0       0x10 /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+ .gnu.attributes
+                0x00000100       0x10 /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+ .gnu.attributes
+                0x00000110       0x10 /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+ .gnu.attributes
+                0x00000120       0x10 /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+ .gnu.attributes
+                0x00000130       0x10 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+ .gnu.attributes
+                0x00000140       0x10 /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+ .gnu.attributes
+                0x00000150       0x10 /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+ .gnu.attributes
+                0x00000160       0x10 /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+ .gnu.attributes
+                0x00000170       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+ .gnu.attributes
+                0x00000180       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+ .gnu.attributes
+                0x00000190       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+ .gnu.attributes
+                0x000001a0       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+ .gnu.attributes
+                0x000001b0       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+ .gnu.attributes
+                0x000001c0       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+ .gnu.attributes
+                0x000001d0       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+ .gnu.attributes
+                0x000001e0       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+ .gnu.attributes
+                0x000001f0       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+ .gnu.attributes
+                0x00000200       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+ .gnu.attributes
+                0x00000210       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+ .gnu.attributes
+                0x00000220       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+ .gnu.attributes
+                0x00000230       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+ .gnu.attributes
+                0x00000240       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+ .gnu.attributes
+                0x00000250       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+ .gnu.attributes
+                0x00000260       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+ .gnu.attributes
+                0x00000270       0x10 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+
+Cross Reference Table
+
+Symbol                                            File
+__BCSCTL1                                         /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__BCSCTL2                                         /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__BCSCTL3                                         /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__DCOCTL                                          /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__MPYS                                            /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+__OP2                                             /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+__P1DIR                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P1IE                                            /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+__P1OUT                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P1SEL                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P2DIR                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P2IE                                            /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+__P2OUT                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P2SEL                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P3DIR                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P3OUT                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P3SEL                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P4DIR                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P4OUT                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P4SEL                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P5DIR                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P5OUT                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P5SEL                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P6DIR                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P6OUT                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__P6SEL                                           /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__RESLO                                           /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+__WDTCTL                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+__bss_size                                        /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+__bss_start                                       /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+__ctors_end                                       /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+__ctors_start                                     /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+__data_load_start                                 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+__data_size                                       /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+__data_start                                      /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+__divhi3                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+__do_clear_bss                                    /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+__do_copy_data                                    /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+__do_global_ctors                                 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+__ext_divmod16                                    /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+__ext_udivmod16                                   /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+__ext_udivmod32                                   /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+__init_stack                                      /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+__irq_is_in                                       /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+__isr_0                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_1                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_10                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_11                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_12                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_13                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_14                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_15                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_16                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_17                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_18                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_19                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_2                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_20                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_21                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_22                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_23                                          /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_24                                          /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_25                                          /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_26                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_27                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_28                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_29                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_3                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_30                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_4                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_5                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_6                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_7                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_8                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_9                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__isr_stack                                       /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+__ivtbl_32                                        /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+__low_level_init                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__low_level_init.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+__main_epilogue                                   /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+__modhi3                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_divmod16.o)
+__stack                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__init_stack.o)
+__stop_progExec__                                 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__stop_progExec__.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+__udivdi3                                         /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+__udivhi3                                         /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+__udivmoddi4                                      /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+__udivsi3                                         /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+__umoddi3                                         /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+__umodhi3                                         /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod16.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+__umodsi3                                         /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod32.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+__watchdog_support                                /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+__wdt_clear_value                                 /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_ctors430.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_clear_bss.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_copy_data.o)
+__xabi_udivmod64                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libgcc.a(_udivmod64.o)
+_end                                              /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+_endless_loop__                                   /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_endless_loop__.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+_mutex_lock                                       /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+_reset_vector__                                   /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_reset_vector__.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+_unexpected_                                      /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/libcrt0.a(_unexpected_.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/mcpu-430x/mmpy-16/crt0ivtbl32.o
+_xtimer_high_cnt                                  /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+_xtimer_set64                                     /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+_xtimer_set_absolute                              /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+assert_crash_message                              /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+auto_init                                         /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+bitarithm_bits_set                                /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+bitarithm_lsb                                     /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+bitarithm_msb                                     /home/user/RIOT/examples/pChase/bin/z1/core.a(bitarithm.o)
+board_init                                        /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+calloc                                            /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+core_panic                                        /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+cpu_switch_context_exit                           /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+free                                              /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+getchar                                           /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+idle_name                                         /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+irq_disable                                       /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+irq_enable                                        /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+irq_is_in                                         /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+irq_restore                                       /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(irq.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+isr_timer_a_cc0                                   /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+isr_timer_a_ccx                                   /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+isr_uart_0_rx                                     /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+kernel_init                                       /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+lpm_awake                                         /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+lpm_begin_awake                                   /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+lpm_end_awake                                     /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+lpm_get                                           /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+lpm_init                                          /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+lpm_prevent_sleep                                 /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+lpm_set                                           /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(lpm_cpu.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+main                                              /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+main_name                                         /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+malloc                                            /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+memcpy                                            /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memcpy.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+memset                                            /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(memset.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+msp430_cpu_init                                   /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+msp430_init_dco                                   /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+mutex_unlock                                      /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+mutex_unlock_and_sleep                            /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+panic_arch                                        /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(panic.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+printf                                            /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+putchar                                           /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+puts                                              /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(puts.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(panic.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common/startup.o
+realloc                                           /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+reboot                                            /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+sbrk                                              /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/oneway_malloc.a(oneway-malloc.o)
+sched_active_pid                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+sched_active_thread                               /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+sched_context_switch_request                      /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+sched_num_threads                                 /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+sched_run                                         /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+sched_runqueues                                   /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+sched_set_status                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+sched_switch                                      /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+sched_task_exit                                   /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+sched_threads                                     /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+splhigh_                                          /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+splx_                                             /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(msp430-main.o)
+thread_add_to_list                                /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+thread_arch_isr_stack_pointer                     /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+thread_arch_isr_stack_start                       /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+thread_arch_isr_stack_usage                       /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+thread_create                                     /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(kernel_init.o)
+thread_get                                        /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+thread_getname                                    /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+thread_getstatus                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+thread_measure_stack_free                         /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+thread_sleep                                      /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+thread_stack_init                                 /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+thread_wakeup                                     /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+thread_yield                                      /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+thread_yield_higher                               /home/user/RIOT/examples/pChase/bin/z1/msp430_common.a(cpu.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(mutex.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(sched.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/core.a(thread.o)
+timer_clear                                       /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+timer_init                                        /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+timer_irq_disable                                 /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+timer_irq_enable                                  /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+timer_read                                        /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+timer_set                                         /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+timer_set_absolute                                /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+timer_start                                       /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+timer_stop                                        /home/user/RIOT/examples/pChase/bin/z1/periph.a(timer.o)
+tsrb_add                                          /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+tsrb_add_one                                      /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+tsrb_get                                          /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+tsrb_get_one                                      /home/user/RIOT/examples/pChase/bin/z1/tsrb.a(tsrb.o)
+uart_init                                         /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+uart_poweroff                                     /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+uart_poweron                                      /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+uart_stdio_init                                   /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/board.a(board.o)
+uart_stdio_read                                   /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+uart_stdio_rx_cb                                  /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+uart_stdio_write                                  /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+uart_write                                        /home/user/RIOT/examples/pChase/bin/z1/periph.a(uart.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/uart_stdio.a(uart_stdio.o)
+vprintf                                           /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+vuprintf                                          /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+                                                  /usr/local/msp430/bin/../lib/gcc/msp430/4.7.0/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(printf.o)
+write                                             /home/user/RIOT/examples/pChase/bin/z1/cpu.a(msp430_stdio.o)
+xtimer_init                                       /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/auto_init.a(auto_init.o)
+                                                  /home/user/RIOT/examples/pChase/bin/z1/pChase.a(pChase.o)
+xtimer_now64                                      /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+xtimer_remove                                     /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
+xtimer_set                                        /home/user/RIOT/examples/pChase/bin/z1/xtimer.a(xtimer_core.o)
